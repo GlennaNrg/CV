@@ -1,0 +1,55 @@
+/* BODY STYLE */
+body {
+  background-color: #ded9d9;
+}
+
+/* HEADER STYLE */
+
+header {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+/* TABLE STYLE */
+table {
+  background-color: #eee8e4;
+  box-shadow: 5px 5px #a59595;
+  margin-left: 10em;
+  padding-bottom: 20px;
+}
+
+table:hover {
+  box-shadow: 10px 10px #a59595;
+}
+
+@import url("https://fonts.google.com/specimen/Press+Start+2P");
+.profession_title {
+  font-size: 20px;
+  margin: 10px;
+}
+.profession {
+  font-family: "Estonia", cursive;
+  font-size: 25px;
+  margin: 10px;
+  padding: 20px;
+}
+
+/* TEXT STYLE */
+h1 {
+  text-shadow: 1px 1px 1px #000;
+}
+p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h2 + p {
+  margin-left: 6em;
+}
+
+img {
+  display: block;
+  margin: 0;
+}
